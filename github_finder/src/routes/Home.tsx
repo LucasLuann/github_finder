@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Busca from "../components/Busca";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div>
+      <Busca />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
